@@ -22,10 +22,12 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          hover: "hsl(var(--secondary-hover))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -57,6 +59,24 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Metro Rail Status Colors
+        "status-ready": "hsl(var(--status-ready))",
+        "status-maintenance": "hsl(var(--status-maintenance))",
+        "status-alert": "hsl(var(--status-alert))",
+        // Railway Theme
+        "railway-dark": "hsl(var(--railway-dark))",
+        "railway-light": "hsl(var(--railway-light))",
+      },
+      backgroundImage: {
+        "gradient-metro": "var(--gradient-metro)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "card": "var(--shadow-card)",
+        "metro": "var(--shadow-metro)",
+      },
+      transitionProperty: {
+        "smooth": "var(--transition-smooth)",
       },
       borderRadius: {
         lg: "var(--radius)",
